@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{2617cde2-75f7-41a5-9505-e9a0dece2027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\ECS">
+      <UniqueIdentifier>{71308308-0e72-4c20-8ec0-c1f5f9333e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Entities">
+      <UniqueIdentifier>{2cbe80cd-179a-49b4-9ded-d66f3fda3968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Game">
+      <UniqueIdentifier>{8c5ff504-3f97-4e90-a61e-ea9ffe3e1123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\ECS\Components">
+      <UniqueIdentifier>{17e06419-fc94-44ac-b357-2724f4647f2f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Events.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS.h">
+      <Filter>Scripts\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions.h">
+      <Filter>Scripts\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Scripts\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Barrier.h">
+      <Filter>Scripts\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities.h">
+      <Filter>Scripts\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Components.h">
+      <Filter>Scripts\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstMovement.h">
+      <Filter>Scripts\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Health.h">
+      <Filter>Scripts\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Scripts\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RectCollider.h">
+      <Filter>Scripts\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureComponent.h">
+      <Filter>Scripts\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Scripts\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Move.h">
+      <Filter>Scripts\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="InputTennis.h">
+      <Filter>Scripts\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="InputPlayer.h">
+      <Filter>Scripts\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs.h">
+      <Filter>Scripts\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMenu.h">
+      <Filter>Scripts\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Scripts\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="InputShoot.h">
+      <Filter>Scripts\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Scripts\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="InputPacman.h">
+      <Filter>Scripts\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Scripts\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeInputMediator.h">
+      <Filter>Scripts\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Scripts\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>Scripts\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="TextHandling.h">
+      <Filter>Scripts\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.h">
+      <Filter>Scripts\Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
